@@ -1,0 +1,20 @@
+{
+  "name": "risen-stats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "tsc",
+    "compile": "tsc main.ts",
+    "full": "npm run compile && electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "electron": "^9.0.5",
+    "node-fetch": "^2.6.0"
+  }
+}

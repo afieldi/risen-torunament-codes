@@ -1,0 +1,30 @@
+<link rel="stylesheet" type="text/css" href="../css/index.css" />
+<link rel="stylesheet" type="text/css" href="../css/skeleton.css" />
+
+
+<div class="container">
+    <div class="row">
+        <div class="seven columns">
+            <label for="tournament-number" style="display: inline-block;">Tourney Number: </label>
+            <input id="tournament-number" name="tournament-number" type="number" placeholder="1111" value="7458" disabled>
+        </div>
+        <div class="five columns">
+            <!-- <button class="button-primary" onclick="generateNewTournament();">Generate New Tournament</button> -->
+        </div>
+    </div>
+    <div class="row">
+        <div class="seven columns">
+            <label for="tourney-codes">Tournament Codes</label>
+            <textarea id="tourney-codes" id="tourney-codes" class="tourney-codes"></textarea>
+        </div>
+        <div class="five columns">
+            <label for="tournament-teams">Number of Matches: </label>
+            <input id="tournament-teams" name="tournament-teams" type="number" placeholder="10">
+            <label for="tournament-bestof">Best of X: </label>
+            <input id="tournament-bestof" name="tournament-bestof" type="number" placeholder="3" value="3">
+            <button class="button-primary full-button" onclick="generateTournamentCodes();">Generate Codes</button>
+        </div>
+    </div>
+</div>
+
+<script src="../js/index.js"></script>

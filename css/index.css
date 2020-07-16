@@ -1,0 +1,11 @@
+.tourney-codes {
+    min-height: 300px;
+    width: 90%;
+    overflow: auto;
+    background-color: rgb(240, 240, 240);
+}
+
+.full-button {
+    width: 100%;
+    /* height: 100%; */
+}
